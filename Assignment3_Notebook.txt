@@ -1,0 +1,6 @@
+Calculated Field For Assigning Tommatometer Rating Symbols to Rotten Tomatoes
+
+IF [Rotten Tomatoes %] <60 THEN "Rotten"
+ELSEIF [Rotten Tomatoes %]>60 AND [Rotten Tomatoes %]<75 THEN "Fresh"
+ELSE "Certified_Fresh"
+END
